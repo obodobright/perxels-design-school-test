@@ -1,0 +1,37 @@
+@media screen and (min-width: 375px) {
+    .childContent {
+        width: 500px;
+        font-family: lato;
+        margin: 0 20px;
+    }
+    .childContentHead {
+        width: 350px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .childContent {
+        width: 500px;
+        font-family: lato;
+        margin: 0 20px;
+    }
+    .childContentHead {
+        width: 428px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .childContent {
+        width: 300px;
+        font-family: lato;
+    }
+    .childContentHead {
+        width: 200px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
